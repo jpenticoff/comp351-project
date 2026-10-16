@@ -1,0 +1,17 @@
+appid:           The unique identifier for the game on the Steam platform. Integer
+name:	         The title of the game.	String
+developer:	 The company or individual who developed the game.	String
+publisher:	 The company or individual who published the game.	String
+score_rank:	 The SteamSpy calculated score rank (often missing or empty for newer titles).	Float
+positive:	 The total number of positive reviews the game has received.	Integer
+negative:	 The total number of negative reviews the game has received.	Integer
+userscore:	 The Metacritic user score (often missing or empty).	Float
+owners:	         An estimated range of how many users own this game (e.g., 1,000,000 .. 2,000,000).	String
+average_forever: The average total playtime (in minutes) across all users since March 2009.	Integer
+average_2weeks:	 The average total playtime (in minutes) across all users in the last two weeks.	Integer
+median_forever:	 The median total playtime (in minutes) across all users since March 2009.	Integer
+median_2weeks:	 The median total playtime (in minutes) across all users in the last two weeks.	Integer
+price:	         The current price of the game (in cents, e.g., 999 = $9.99).	Integer
+initialprice:	 The original base price of the game before any discounts (in cents).	Integer
+discount:	 The current percentage discount applied to the game (e.g., 50 for 50% off).	Integer
+ccu:	         The peak concurrent users playing the game yesterday.	Integer
